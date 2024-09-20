@@ -21,7 +21,7 @@ printf("Welcome to the Betting Game!\n""You have $20 worth of quarters.\n");
 
         if (bet_amount == 0)
         {
-            printf("\nCashing out. You ended with $%.2f.\n", balance);
+            printf("Cashing out. You ended with $%.2f.\n", balance);
             break;
         }
         else if (bet_amount > quarter_amount)
